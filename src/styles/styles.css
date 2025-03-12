@@ -69,7 +69,7 @@ header{
 
 }
 
-/* Estilos generales para el footer */
+
 footer {
     margin: 1;
     padding: 1;
@@ -89,30 +89,30 @@ footer {
   .social-icons {
     display: flex;
     justify-content: center;
-    gap: 100px; /* Espaciado entre iconos */
+    gap: 100px; 
     
   }
   
   .icon {
     color: black;
-    font-size: 3rem; /* Tamaño de los iconos */
+    font-size: 3rem;
     transition: color 0.3s ease;
   }
   
   .icon:hover {
-    color: #be8c6b; /* Cambia el color al pasar el ratón */
+    color: #be8c6b; 
   }
   
   .icon.instagram:hover {
-    color: #be8c6b; /* Color específico para Instagram */
+    color: #be8c6b; 
   }
   
   .icon.facebook:hover {
-    color: #be8c6b; /* Color específico para Facebook */
+    color: #be8c6b; 
   }
   
   .icon.email:hover {
-    color: #be8c6b; /* Color específico para correo */
+    color: #be8c6b; 
   }
   
   html, body {
@@ -122,14 +122,14 @@ footer {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    transition: background-image 1s ease-in-out; /* Para una transición suave entre las imágenes */
+    transition: background-image 1s ease-in-out; 
     overflow-x: hidden;
     overflow-y:visible
 }
 
 .biografia {
     width: 80%;
-    margin: 0 auto; /* Centra el contenedor */
+    margin: 0 auto; 
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
@@ -144,7 +144,7 @@ footer {
   .contenido {
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Añade espacio entre cada sección */
+    gap: 40px; 
   }
   
   .item {
@@ -154,22 +154,22 @@ footer {
   }
   
   .izquierda {
-    flex-direction: row; /* Texto a la izquierda e imagen a la derecha */
+    flex-direction: row; 
   }
   
   .derecha {
-    flex-direction: row-reverse; /* Texto a la derecha e imagen a la izquierda */
+    flex-direction: row-reverse;
   }
   
   .texto {
-    width: 50%; /* Limita el ancho del texto */
+    width: 50%; 
     font-size: 1.1rem;
     padding: 10px;
     box-sizing: border-box;
   }
   
   .imagen {
-    width: 40%; /* Limita el ancho de la imagen */
+    width: 40%; 
     height: auto;
     margin: 10px;
     border-radius: 10px;
@@ -178,10 +178,10 @@ footer {
   
 
   .contacto {
-    width: 50%; /* Ajusta el ancho según lo que prefieras */
-    margin-left: 20px; /* Mueve el formulario más hacia la izquierda */
+    width: 50%; 
+    margin-left: 20px;
     padding: 20px;
-    text-align: left; /* Alinea el texto a la izquierda */
+    text-align: left; 
   }
   
   .contacto h2 {
@@ -221,7 +221,7 @@ footer {
   }
   
   textarea {
-    resize: vertical; /* Permite que el textarea se redimensione verticalmente */
+    resize: vertical; 
   }
   
   button {
@@ -241,8 +241,8 @@ footer {
   .iconos {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espacio entre los iconos */
-    justify-content: center; /* Centra los iconos verticalmente */
+    gap: 20px; 
+    justify-content: center; 
     text-align: right;
     margin-left: 1000px;
     margin-top: -400px;
@@ -250,23 +250,23 @@ footer {
     }
   
   .icono i {
-    font-size: 5rem; /* Tamaño grande de los iconos */
-    color: #000; /* Color de los iconos */
+    font-size: 5rem; 
+    color: #000; 
     transition: color 0.3s ease;
   }
   
   .icono:hover i {
-    color: #be8c6b; /* Cambia el color al pasar el ratón */
+    color: #be8c6b; 
   }
   
   .icono span {
-    font-size: 1.1rem; /* Tamaño del texto */
+    font-size: 1.1rem; 
     color: #000;
     text-decoration: none;
   }
 
   .icono a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
+    text-decoration: none; 
   }
 
   
@@ -315,7 +315,7 @@ footer {
     line-height: 100vh;
     transition: background-size 200ms;
     position: absolute;
-    color: black; /* Cambié color a negro */
+    color: black; 
     height: calc(110vh - 12px);
     width: 60px;
     top: 0;
@@ -408,8 +408,7 @@ footer {
 
 .fila {
   display: flex;
-  align-items: center; /* Alinea la imagen y el texto verticalmente */
-  gap: 20px; /* Espacio entre el cuadrado y el texto */
+  align-items: center; 
 }
 
 .placeholder {
